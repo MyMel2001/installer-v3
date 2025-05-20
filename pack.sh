@@ -17,27 +17,19 @@ flatpak update ## update em all....
 flatpak remote-add --user -y --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## the hub ;)
 
 # Installs my essentials...
-flatpak install --user -y com.obsproject.Studio com.protonvpn.www com.spotify.Client io.freetubeapp.FreeTube io.github.ec_.Quake3e.OpenArena io.gitlab.librewolf-community network.loki.Session org.darktable.Darktable org.ferdium.Ferdium org.flightgear.FlightGear org.kde.krita org.libreoffice.LibreOffice org.localsend.localsend_app org.shotcut.Shotcut org.videolan.VLC ## Install tons of stuff....
-
-# Main gaming apps...
-flatpak install --user -y com.valvesoftware.Steam ## Installs Steam (duh.)
-flatpak install --user -y com.heroicgameslauncher.hgl ## For installing Epic Games alternative launcher "Heroic"
+flatpak install --user -y com.obsproject.Studio com.protonvpn.www com.spotify.Client io.freetubeapp.FreeTube io.github.ec_.Quake3e.OpenArena io.gitlab.librewolf-community network.loki.Session org.darktable.Darktable org.ferdium.Ferdium org.flightgear.FlightGear org.kde.krita org.libreoffice.LibreOffice org.localsend.localsend_app org.shotcut.Shotcut org.videolan.VLC com.github.k4zmu2a.spacecadetpinball  ## Install tons of stuff....
 
 # Install Game Streaming Stuffs
 flatpak install --user -y io.github.hmlendea.geforcenow-electron ## GFN
+flatpak install --user -y io.github.mandruis7.xbox-cloud-gaming-electron ## XBOX
+
 
 # Install Minecraft/ROBLOX
 flatpak install --user -y org.vinegarhq.Vinegar ## For using ROBLOX Studio
-flatpak install --user -y https://sober.vinegarhq.org/sober.flatpakref ## Installs Sober Project to run ROBLOX Player on our Linux PC. Note that this requires the "universal" mapk binary from [here.](https://www.apkmirror.com/apk/roblox-corporation/roblox/)
 
 # Install coding stuffs...
 flatpak install --user -y org.filezillaproject.Filezilla # FTP/SFTP uploading program
-flatpak install --user -y com.visualstudio.code # VSCode. It's a code editor, NOT an IDE.
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash # nvm, used to manage nodejs versions
-
-# Install AI stuffs....
-flatpak install --user -y org.upscayl.Upscayl ## Install AI upscaler
-curl -fsSL https://ollama.com/install.sh | sh ## Install AI chatbot
 
 # SneedHosts (Got permission from the Sneed Group team to use this!)
 printf "# SneedHosts Collection. Made by Sneed Group.\n" > sneedhosts.tmp ## Init the hosts with a line giving credit.
