@@ -14,10 +14,10 @@ sudo snap remove libreoffice* ## Checks for the snap package... (for the future.
 flatpak update ## update em all....
 
 # Add flathub repo...
-flatpak remote-add --user -y --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## the hub ;)
+flatpak remote-add -y --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## the hub ;)
 
 # Install coding stuffs...
-flatpak install --user -y org.filezillaproject.Filezilla # FTP/SFTP uploading program
+flatpak install -y org.filezillaproject.Filezilla # FTP/SFTP uploading program
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash # nvm, used to manage nodejs versions
 
 # SneedHosts (Got permission from the Sneed Group team to use this!)
