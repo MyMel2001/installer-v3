@@ -14,18 +14,7 @@ sudo snap remove libreoffice* ## Checks for the snap package... (for the future.
 flatpak update ## update em all....
 
 # Add flathub repo...
-flatpak remote-add --user -y --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## the hub ;)
-
-# Installs my essentials...
-flatpak install --user -y com.obsproject.Studio com.protonvpn.www com.spotify.Client io.freetubeapp.FreeTube io.github.ec_.Quake3e.OpenArena io.gitlab.librewolf-community network.loki.Session org.darktable.Darktable org.ferdium.Ferdium org.flightgear.FlightGear org.kde.krita org.libreoffice.LibreOffice org.localsend.localsend_app org.shotcut.Shotcut org.videolan.VLC com.github.k4zmu2a.spacecadetpinball  ## Install tons of stuff....
-
-# Install Game Streaming Stuffs
-flatpak install --user -y io.github.hmlendea.geforcenow-electron ## GFN
-flatpak install --user -y io.github.mandruis7.xbox-cloud-gaming-electron ## XBOX
-
-
-# Install Minecraft/ROBLOX
-flatpak install --user -y org.vinegarhq.Vinegar ## For using ROBLOX Studio
+flatpak remote-add --user -y --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## the hub ;)[
 
 # Install coding stuffs...
 flatpak install --user -y org.filezillaproject.Filezilla # FTP/SFTP uploading program
